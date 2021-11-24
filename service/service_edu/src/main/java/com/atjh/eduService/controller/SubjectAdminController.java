@@ -1,20 +1,20 @@
 package com.atjh.eduService.controller;
 
 import com.atjh.commonUtils.R;
+import com.atjh.eduService.entity.vo.OneSubjectVo;
 import com.atjh.eduService.service.EduSubjectService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+
+import java.util.List;
 
 @Api(description="课程分类管理")
 @CrossOrigin //跨域
 @RestController
-@RequestMapping("/eduservice/subject")
+@RequestMapping("/eduservice/edusubject")
 public class SubjectAdminController {
 
     @Autowired
@@ -31,4 +31,12 @@ public class SubjectAdminController {
         //判断返回集合是否为空
         return R.ok();
     }
+
+    @ApiOperation(value = "查询所有课程分类")
+    @GetMapping("getAllSubject")
+    public R getAllSubject(){
+        List<OneSubjectVo> allSubjectList  = subjectService.getAllSubject();
+        return R.ok().data("allSubject",allSubjectList);
+    }
+
 }
