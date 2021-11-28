@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03c0b7e6-5ade-47e7-8dce-5fcfbb9b0a5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/controller/EduCourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/controller/EduCourseDescriptionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduCourseDescription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/vo/CourseInfoForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/mapper/EduCourseDescriptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/mapper/EduCourseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/mapper/xml/EduCourseDescriptionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/mapper/xml/EduCourseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/service/EduCourseDescriptionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/service/EduCourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/service/impl/EduCourseDescriptionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/service/impl/EduCourseServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/src/test/java/com/atjh/eduService/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/test/java/com/atjh/eduService/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/target/test-classes/com/atjh/eduService/CodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/target/test-classes/com/atjh/eduService/CodeGenerator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +80,7 @@
       <recent name="D:\aprograme\2021版在线教育\demo2\guli_parent\service\service_edu\src\main\java\com.atjh.eduService" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.EduApplication">
+  <component name="RunManager" selected="Spring Boot.OssApplication">
     <configuration name="CodeGenerator.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service_edu" />
       <extension name="coverage">
@@ -140,9 +125,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OssApplication" />
         <item itemvalue="Spring Boot.EduApplication" />
         <item itemvalue="JUnit.CodeGenerator.run" />
-        <item itemvalue="Spring Boot.OssApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +148,8 @@
       <workItem from="1637758715130" duration="3687000" />
       <workItem from="1637764961447" duration="1536000" />
       <workItem from="1637829884861" duration="1190000" />
-      <workItem from="1638081354221" duration="3762000" />
+      <workItem from="1638081354221" duration="5919000" />
+      <workItem from="1638114638387" duration="454000" />
     </task>
     <servers />
   </component>
@@ -194,38 +180,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1637589292914" />
-    <state width="1493" height="300" key="GridCell.Tab.0.bottom" timestamp="1638098911409">
+    <state width="1493" height="300" key="GridCell.Tab.0.bottom" timestamp="1638115154119">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="300" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1638098911409" />
-    <state width="1493" height="300" key="GridCell.Tab.0.center" timestamp="1638098911409">
+    <state width="1493" height="300" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1638115154119" />
+    <state width="1493" height="300" key="GridCell.Tab.0.center" timestamp="1638115154119">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="300" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1638098911409" />
-    <state width="1493" height="300" key="GridCell.Tab.0.left" timestamp="1638098911409">
+    <state width="1493" height="300" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1638115154119" />
+    <state width="1493" height="300" key="GridCell.Tab.0.left" timestamp="1638115154118">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="300" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1638098911409" />
-    <state width="1493" height="300" key="GridCell.Tab.0.right" timestamp="1638098911409">
+    <state width="1493" height="300" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1638115154118" />
+    <state width="1493" height="300" key="GridCell.Tab.0.right" timestamp="1638115154119">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="300" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1638098911409" />
-    <state width="1493" height="300" key="GridCell.Tab.1.bottom" timestamp="1638098911409">
+    <state width="1493" height="300" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1638115154119" />
+    <state width="1493" height="300" key="GridCell.Tab.1.bottom" timestamp="1638115154119">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="300" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1638098911409" />
-    <state width="1493" height="300" key="GridCell.Tab.1.center" timestamp="1638098911409">
+    <state width="1493" height="300" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1638115154119" />
+    <state width="1493" height="300" key="GridCell.Tab.1.center" timestamp="1638115154119">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="300" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1638098911409" />
-    <state width="1493" height="300" key="GridCell.Tab.1.left" timestamp="1638098911409">
+    <state width="1493" height="300" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1638115154119" />
+    <state width="1493" height="300" key="GridCell.Tab.1.left" timestamp="1638115154119">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="300" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1638098911409" />
-    <state width="1493" height="300" key="GridCell.Tab.1.right" timestamp="1638098911409">
+    <state width="1493" height="300" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1638115154119" />
+    <state width="1493" height="300" key="GridCell.Tab.1.right" timestamp="1638115154119">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="300" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1638098911409" />
+    <state width="1493" height="300" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1638115154119" />
     <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1637586609825">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
